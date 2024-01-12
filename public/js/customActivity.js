@@ -98,7 +98,7 @@ define([
         if(exDE == "OPORTUNIDAD_NUEVOS_LEXUS_B2C"){
             payload['arguments'].execute.inArguments = [{
                 "tokens": authTokens,
-                "phoneNumber": "{{Contact.Attribute.OPORTUNIDAD_NUEVOS_LEXUS_B2C.PersonMobilePhone}}",
+                "phoneNumber": "506"+"{{Contact.Attribute.OPORTUNIDAD_NUEVOS_LEXUS_B2C.PersonMobilePhone}}",
                 "emailAddress": "{{InteractionDefaults.email}}",
                 "clientName": "{{Contact.Attribute.OPORTUNIDAD_NUEVOS_LEXUS_B2C.Nombre}}",
                 "templateId": templateId
@@ -107,7 +107,7 @@ define([
             if(exDE == "LEADS_NUEVOS_B2C"){
                 payload['arguments'].execute.inArguments = [{
                     "tokens": authTokens,
-                    "phoneNumber": "{{Contact.Attribute.LEADS_NUEVOS_B2C.Telefono}}",
+                    "phoneNumber": "506"+"{{Contact.Attribute.LEADS_NUEVOS_B2C.Telefono}}",
                     "emailAddress": "{{InteractionDefaults.email}}",
                     "clientName": "{{Contact.Attribute.LEADS_NUEVOS_B2C.Primer_Nombre}}",
                     "templateId": templateId

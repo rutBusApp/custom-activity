@@ -21,11 +21,11 @@
             "emailAddress": "{{InteractionDefaults.Email}}"
           },
           {
-            "phoneNumber": "{{Contact.Attribute.OPORTUNIDAD_LEXUS_B2C.PersonMobilePhone}}"
+            "phoneNumber": "{{Contact.Attribute.DATA_PRUEBA_NUEVOS_USER.PersonMobilePhone}}"
           }
           ,
           {
-            "clientName": "{{Contact.Attribute.OPORTUNIDAD_LEXUS_B2C.Nombre}}" 
+            "clientName": "{{Contact.Attribute.DATA_PRUEBA_NUEVOS_USER.Nombre}}" 
           },
           {
             "templateId": "X1Mva7L7EVd06JeaeF8A"

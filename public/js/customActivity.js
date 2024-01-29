@@ -99,7 +99,7 @@ define([
             "tokens": authTokens,
             "phoneNumber": "{{Contact.Attribute.DATA_PRUEBA_NUEVOS_USER.Telefono_celular}}",
             "emailAddress": "{{InteractionDefaults.email}}",
-            "clientName": "{{Contact.Attribute.DATA_PRUEBA_NUEVOS_USER.Nombre}}",
+            "clientName": "{{Contact.Attribute.DATA_PRUEBA_NUEVOS_USER.Nombre_completo}}",
             "templateId": templateId
         }];
         
